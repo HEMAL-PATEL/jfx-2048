@@ -9,6 +9,6 @@ A simple number puzzle game like THREES based on Java and JavaFx 8.
 
 </p>
 ###License 
-jfx-2048 is licensed under GLP-V2.
+JFX-2048 is licensed under GLP-V2.
 ###Requirement
 Java 8
