@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane id="stack" alignment="BOTTOM_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle fx:id="rec" arcHeight="5.0" arcWidth="5.0" fill="#ebebeb" height="700.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="610.0" StackPane.alignment="CENTER">
+         <StackPane.margin>
+            <Insets />
+         </StackPane.margin></Rectangle>
+      <ImageView fitHeight="100.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../banner.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_CENTER">
+         <image>
+            <Image url="@../banner.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="800.0" layoutX="-190.0" layoutY="606.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_CENTER">
+         <image>
+            <Image url="@../banner.png" />
+         </image>
+         <StackPane.margin>
+            <Insets top="3.0" />
+         </StackPane.margin>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="800.0" layoutX="-190.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="BOTTOM_CENTER">
+         <image>
+            <Image url="@../banner.png" />
+         </image>
+         <StackPane.margin>
+            <Insets bottom="3.0" />
+         </StackPane.margin>
+      </ImageView>
+      <Text fill="#23ab5e" strokeType="OUTSIDE" strokeWidth="0.0" text="JFX-2048 is a number puzzle game like THREES&#10;&#10;This game based on Java and JavaFX 8&#10;&#10;the source code also available on github&#10;&#10;" wrappingWidth="427.8203125" StackPane.alignment="TOP_CENTER">
+         <StackPane.margin>
+            <Insets top="100.0" />
+         </StackPane.margin>
+         <effect>
+            <Glow level="0.29" />
+         </effect>
+         <font>
+            <Font name="Tahoma" size="19.0" />
+         </font>
+      </Text>
+      <Hyperlink blendMode="DARKEN" text="https://github.com/smasoumi/jfx-2048" StackPane.alignment="CENTER">
+         <effect>
+            <Glow level="0.53" />
+         </effect>
+         <font>
+            <Font size="13.0" />
+         </font>
+         <StackPane.margin>
+            <Insets top="50.0" />
+         </StackPane.margin>
+      </Hyperlink>
+      <Label text="Saeed Masoumi" textFill="#2576c3" StackPane.alignment="CENTER">
+         <StackPane.margin>
+            <Insets bottom="50.0" />
+         </StackPane.margin>
+         <effect>
+            <Glow level="0.6" />
+         </effect>
+      </Label>
+      <ImageView fx:id="back" StackPane.alignment="TOP_LEFT">
+         <image>
+            <Image url="@../img/tsf_option_menu_add_shortcut.png" />
+         </image>
+         <StackPane.margin>
+            <Insets top="5.0" />
+         </StackPane.margin>
+      </ImageView>
+      <Label text="s-masoumi@live.com" textFill="#9426dd" StackPane.alignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <effect>
+            <Glow level="0.59" />
+         </effect></Label>
+   </children>
+</StackPane>

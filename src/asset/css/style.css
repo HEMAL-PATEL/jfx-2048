@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Forte;
+    src: url('forte.ttf');
+}
+.game{
+    -fx-font-family:'Forte';
+}
+.points {
+    -fx-font-family:'Forte';
+    -fx-font-size: 23px;
+    -fx-text-fill: rgba(255, 255, 240, 0.9);
+}
+.pointsAdded {
+    -fx-font-family:'Forte';
+    -fx-font-size: 25px;
+    -fx-text-fill: #0F4E75;
+}
+.xp {
+    -fx-font-family:'Forte';
+    -fx-font-size: 28px;
+    -fx-text-fill: #3DE9F2; 
+    -fx-effect: dropshadow( three-pass-box, rgba(9, 180, 189, 1), 10, 0.5, 0, 0 );
+}
+.lose{
+    -fx-font-size: 50px;
+    -fx-text-fill: #3c3a32;
+    -fx-effect: dropshadow( three-pass-box, rgba(9, 180, 189, 1), 10, 0.5, 0, 0 );
+
+}
+
+.rec-cell {
+    -fx-fill: #cdc1b4;
+    -fx-stroke-width: 10;
+    -fx-stroke: #BBADA0;
+    
+}
+
+.rec-background {
+    -fx-fill: #BBADA0;
+}
+.tile-2    { 
+    -fx-font-family:'Forte';
+    -fx-font-size: 55px;
+    -fx-text-fill: #776e65;
+    -fx-background-color: #eee4da; 
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}
+.tile-4    { 
+    -fx-font-family:'Forte';
+    -fx-font-size: 55px;
+    -fx-text-fill: #776e65;
+    -fx-background-color: #ede0c8; 
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}
+.tile-8    { 
+    -fx-font-family:'Forte';
+    
+    -fx-font-size: 55px;
+    -fx-text-fill: #f9f6f2;
+    -fx-background-color: #f2b179; 
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}
+.tile-16   { 
+    -fx-font-family:'Forte';
+    
+    -fx-font-size: 55px;
+    -fx-text-fill: #f9f6f2;
+    -fx-background-color: #f59563; 
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}
+.tile-32   { 
+    -fx-font-family:'Forte';
+    -fx-font-size: 55px;
+    -fx-text-fill: #f9f6f2;
+    -fx-background-color: #f67c5f; 
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}
+.tile-64   { 
+    -fx-font-family:'Forte';
+    -fx-font-size: 55px;
+    -fx-text-fill: #f9f6f2;
+    -fx-background-color: #f65e3b; 
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}
+.tile-128  { 
+    -fx-font-family:'Forte';
+    -fx-font-size: 45px;
+    -fx-text-fill: #f9f6f2;
+    -fx-background-color: #edcf72; 
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-effect: dropshadow( three-pass-box, rgba(243, 215, 116, 0.2381), 30, 0.5, 0, 0 );
+    -fx-border-color: rgba(255, 255, 255, 0.14286);
+    -fx-border-width: 1;
+}
+.tile-256  { 
+    -fx-font-family:'Forte';
+    
+    -fx-font-size: 45px;
+    -fx-text-fill: #f9f6f2;
+    -fx-background-color: #edcc61;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-effect: dropshadow( three-pass-box, rgba(243, 215, 116, 0.31746), 30, 0.5, 0, 0 );
+    -fx-border-color: rgba(255, 255, 255, 0.19048);
+    -fx-border-width: 1;
+}
+.tile-512  { 
+    -fx-font-family:'Forte';
+    -fx-font-size: 45px;
+    -fx-text-fill: #f9f6f2;
+    -fx-background-color: #edc850; 
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-effect: dropshadow( three-pass-box, rgba(243, 215, 116, 0.39683), 30, 0.5, 0, 0 );
+    -fx-border-color: rgba(255, 255, 255, 0.2381);
+    -fx-border-width: 1;
+}
+.tile-1024 { 
+    -fx-font-family:'Forte';
+    -fx-font-size: 35px;
+    -fx-text-fill: #f9f6f2;
+    -fx-background-color: #edc53f; 
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-effect: dropshadow( three-pass-box, rgba(243, 215, 116, 0.47619), 30, 0.5, 0, 0 );
+    -fx-border-color: rgba(255, 255, 255, 0.28571);
+    -fx-border-width: 1;
+}
+.tile-2048 { 
+    -fx-font-family:'Forte';
+    -fx-font-size: 35px;
+    -fx-text-fill: #f9f6f2;
+    -fx-background-color: #edc22e; 
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-effect: dropshadow( three-pass-box, rgba(243, 215, 116, 0.55556), 30, 0.5, 0, 0 );
+    -fx-border-color: rgba(255, 255, 255, 0.33333);
+    -fx-border-width: 1;
+}
+.tile-4096, .tile-8192, .tile-16384 { 
+    -fx-font-family:'Forte';    
+    -fx-font-size: 30px;
+    -fx-text-fill: #f9f6f2;
+    -fx-background-color: #3c3a32; 
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}

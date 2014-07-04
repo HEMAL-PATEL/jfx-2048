@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="mainStackPane" alignment="BOTTOM_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle fx:id="rec" arcHeight="5.0" arcWidth="5.0" fill="#ebebeb" height="700.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="610.0" StackPane.alignment="CENTER" />
+      <ImageView fitHeight="100.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../banner.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_CENTER">
+         <image>
+            <Image url="@../banner.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="800.0" layoutX="-190.0" layoutY="606.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_CENTER">
+         <image>
+            <Image url="@../banner.png" />
+         </image>
+         <StackPane.margin>
+            <Insets top="3.0" />
+         </StackPane.margin>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="800.0" layoutX="-190.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="BOTTOM_CENTER">
+         <image>
+            <Image url="@../banner.png" />
+         </image>
+         <StackPane.margin>
+            <Insets bottom="3.0" />
+         </StackPane.margin>
+      </ImageView>
+      <ImageView fx:id="exit" fitHeight="65.0" fitWidth="65.0" StackPane.alignment="TOP_LEFT">
+         <image>
+            <Image url="@../img/app_ic_menu_exit_light.png" />
+         </image>
+         <StackPane.margin>
+            <Insets left="15.0" top="15.0" />
+         </StackPane.margin>
+      </ImageView>
+      <ImageView fx:id="back" fitHeight="65.0" fitWidth="65.0" StackPane.alignment="TOP_LEFT">
+         <image>
+            <Image url="@../img/tsf_option_menu_add_shortcut.png" />
+         </image>
+         <StackPane.margin>
+            <Insets left="75.0" top="15.0" />
+         </StackPane.margin>
+      </ImageView>
+      <ImageView fx:id="reload" fitHeight="65.0" fitWidth="65.0" StackPane.alignment="TOP_LEFT">
+         <image>
+            <Image url="@../img/tsf_option_menu_favorite_return.png" />
+         </image>
+         <StackPane.margin>
+            <Insets left="150.0" top="15.0" />
+         </StackPane.margin>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="173.0" StackPane.alignment="TOP_RIGHT">
+         <image>
+            <Image url="@../img/iconback2.png" />
+         </image>
+         <StackPane.margin>
+            <Insets right="15.0" top="18.0" />
+         </StackPane.margin>
+      </ImageView>
+   </children>
+</StackPane>
